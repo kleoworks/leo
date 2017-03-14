@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+a {
+    color: #3184d8;
+}
+
+.error {
+    color: red;
+}
+
+.wrapper {
+    margin: 20px 40px;
+}
+
+.add_new {
+    width: 450px;
+    margin-bottom: 20px;
+}
+
+label {
+
+    display: inline-block;
+    width: 100px;
+    line-height: 20px;
+    vertical-align: top;
+    margin-bottom: 8px;
+
+}
+
+input[type="text"] {
+    width: 325px;
+    margin-left: 12px;
+    border: 1px solid black;
+    padding: 4px;
+    box-sizing: border-box;
+
+}
+
+textarea {
+    width: 325px;
+    height: 100px;
+    margin-left: 12px;
+    border: 1px solid black;
+    padding: 4px;
+    overflow: none;
+    resize: none;
+    box-sizing: border-box;
+
+}
+
+
+
+.show_table {
+
+    width: 750px;
+
+}
+
+    table {
+        width: 100%;
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+
+        td {
+            padding: 4px;
+            border-right: 1px solid black;
+        }
+
+        td.col1 {
+            width: 35%;
+        }
+
+        td.col2 {
+            width: 30%;
+        }
+
+        td.col3 {
+            width: 30%;
+        }
+
+        td.col4 {
+            width: 5%;
+        }
+
+        thead {
+            background-color: #cccccc;
+            font-weight: bold;
+        }
+
+        tbody tr:nth-of-type(2n+1) {
+            background-color: #eee;
+        }
+
+
+/*VERIFY BEFORE DESTROY PAGE*/
+
+.row {
+margin-top: 4px;
+}
+
+.row p {
+    display: inline-block;
+}
+
+.row p:first-of-type {
+    width: 100px;
+}
+
+.row form {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.row form:first-of-type {
+    width: 30px;
+}
+
+
+/*FORM BUTTONS*/
+
+.btn {
+padding: 4px 8px;
+border: 1px solid black;
+box-shadow: 2px 2px black;
+}
+
+.add {
+    background-color: #009d0d;
+    color: white;
+    margin-left: 405px;
+}
+
+.add_new .add {
+    margin-left: 405px;
+}
+
+.delete {
+    background-color: #900;
+    color: white;
+    margin-left: 20px;
+}
